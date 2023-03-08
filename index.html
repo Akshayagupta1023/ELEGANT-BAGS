@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ELEGANT BAGS
+        </title>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            .column {
+              float: left;
+              width: 16.66%;
+              padding: 5px;
+            }
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            </style>
+        
+    </head>
+    <body>
+        <body style="background-color:rgba(234, 234, 232, 0.94);" >
+            <p style="text-align:center;color:rgb(250, 5, 136);font-size:200%;"><b>ELEGANT BAGS</b></p>
+            <p style="text-align:center;color:rgb(175, 2, 112);font-size:100%;"> <h1><marquee bgcolor="grey">Behind every women,there is a successful bag!! Life is to short to carry the boring bag!!</marquee> </h1></p>
+            <div class="row">
+                <div class="column">
+                  <img src="bag 1.jpg" alt="bagpic" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="bag 2.jpg" alt="bagpic" style="width:150%">
+                </div>
+                <div class="column">
+                  <img src="bag 3.jpg" alt="bagpic" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="bag 4.jpg" alt="bagpic" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="bag 5.jpg" alt="bagpic" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="bag 6.jpg" alt="bagpic" style="width:100%">
+                </div>
+            </div>    
+        <form action="receive.php">
+            <font-color:"black";font-family:"Timesnewroman";font-size:"20px">
+            <p><b>NAME:</b></p>
+            <input type="text" id ="name" name="name">
+            <br>
+            <p><b>PHONE NUMBER:</b></p>
+            <input type="number" id ="phno" name="phno">
+            <br>
+            <p><b>ADDRESS:</b></p>
+            <textarea id="address" name="address" rows="5" cols="40">
+            ..Enter your address here.....
+            </textarea>
+            <br>
+            <fieldset>
+                <legend><b>TYPE OF HAND BAG NEEDED:</b></legend>
+                    <input type="radio" id="bagtype" name="bagtype" value="A">
+                    HOBO<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="B">
+                    BAGUTTE<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="C">
+                    DUFFLE<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="D">
+                    SHOPPER<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="E">
+                    WRISTLET<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="F">
+                    BUCKET<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="G">
+                    TOTE<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="H">
+                    SATCHEL<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="I">
+                    CLUTCH<br>
+                    <input type="radio" id="bagtype" name="bagtype" value="J">
+                    MESSENGER<br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>MATERIAL OF HAND-BAG:</b></legend>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="a">
+                    TEXTILE<br>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="b">
+                    LEATHER<br>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="c">
+                    SYNTHETIC FIBER<br>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="d">
+                    JUTE<br>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="e">
+                    NYLON<br>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="f">
+                    STRAW<br>
+                    <input type="radio" id="bagmaterial" name="bagmaterial" value="g"><p>OTHER MATERIAL:</p>
+                    <input type="text" id ="bagmaterial" name="bagmaterial"><br>
+            </fieldset>
+            <br>
+            <p><b>COLOR OF THE BAG:</b></p>
+            <input type="color" id="favcolor" name="favcolor" value="#000000">
+            <fieldset>
+            <p><b>SIZE OF BAG:</b></p>
+            <input type="number" id="bagsize" name="bagsize"><br>
+            <legend><b>COST RANGE OF EACH BAG:</b></legend>
+                <p>FROM:</p>
+                <input type="text" id ="bagcostfrom" name="bagcostfrom"><br>
+                <p>TO:</p>
+                <input type="text" id ="bagcostto" name="bagcostto"><br>
+            </fieldset>
+            <br>
+            <p><b>TEXT/URL OF THE IMAGE TO BE PRINTED IN BAG:</b></p>
+            <textarea id="textprint" name="textprint" rows="5" cols="40">
+            ..Enter here.....
+            </textarea>
+            <br>
+            <p><b>NUMBER OF BAGS NEEDED:</b></p>
+            <input type="number" id="bagno" name="bagno"><br>
+            
+            </font>
+            </form>     
+            <input type="submit" value="CONFIRM UR ORDER HERE">   
+    </body>
+</html>
